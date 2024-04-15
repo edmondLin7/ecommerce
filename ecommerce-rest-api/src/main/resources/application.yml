@@ -1,0 +1,28 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: ecommerce-rest-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommercedb
+    username: root
+    password: edmondlin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+# security.jwt.secret=""
+# security.jwt.expiration-in-ms=""
+
+
+
+#  security:
+#    jwt:
+#      secret: fdc392f1105dcaaa729975c1d31a8e29f96b68a55e0e63988cef52a6d3aa8873
+#      expiration-in-ms: 604800
+
+
